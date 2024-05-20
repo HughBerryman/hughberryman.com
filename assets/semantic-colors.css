@@ -1,0 +1,79 @@
+@import "./color-palettes.css";
+
+:root {
+  /* Base Colors */
+  --color-primary-bg: var(
+    --primary-500
+  ); /* Use for primary buttons, main actions */
+  --color-primary-text: var(--primary-50); /* Use for text on primary buttons */
+
+  --color-secondary-bg: var(
+    --neutral-50
+  ); /* Use for secondary buttons, less prominent actions */
+  --color-secondary-text: var(
+    --primary-500
+  ); /* Use for text on secondary buttons */
+
+  --color-tertiary-bg: #6c757d; /* Use for tertiary buttons, alternative actions */
+  --color-tertiary-text: #ffffff; /* Use for text on tertiary buttons */
+
+  /* Neutral Colors */
+  --color-bg-default: #ffffff; /* Use as the main background color */
+  --color-bg-alt: #f5f5f5; /* Use for alternative backgrounds, sections */
+
+  --color-surface-default: #fafafa; /* Use for card backgrounds, surfaces */
+  --color-surface-alt: #eeeeee; /* Use for alternate surfaces, card backgrounds */
+
+  --color-border-light: #e0e0e0; /* Use for light borders, dividers */
+  --color-border-dark: #bdbdbd; /* Use for dark borders, prominent dividers */
+
+  --color-text-primary: #212121; /* Use for primary text, main content */
+  --color-text-secondary: #757575; /* Use for secondary text, subtitles, meta information */
+  --color-text-disabled: #bdbdbd; /* Use for disabled text, inactive elements */
+  --color-text-hint: #9e9e9e; /* Use for hint text, placeholders */
+  --color-text-caption: #9e9e9e; /* Use for captions, smaller text */
+  --color-text-paragraph: #687492; /* Use for paragraph text */
+  --color-text-header: #0e1b3d; /* Use for headers, titles */
+
+  /* Feedback Colors */
+  --color-success-bg: #4caf50; /* Use for success messages, backgrounds */
+  --color-success-text: #ffffff; /* Use for text on success backgrounds */
+
+  --color-error-bg: #f44336; /* Use for error messages, backgrounds */
+  --color-error-text: #ffffff; /* Use for text on error backgrounds */
+
+  --color-warning-bg: #ff9800; /* Use for warning messages, backgrounds */
+  --color-warning-text: #ffffff; /* Use for text on warning backgrounds */
+
+  --color-info-bg: #2196f3; /* Use for info messages, backgrounds */
+  --color-info-text: #ffffff; /* Use for text on info backgrounds */
+
+  /* Support Colors */
+  --color-support-secondary-bg: #8a94a6; /* Use for secondary support elements */
+  --color-support-secondary-text: #ffffff; /* Use for text on secondary support backgrounds */
+
+  --color-support-tertiary-bg: #a9b2c3; /* Use for tertiary support elements */
+  --color-support-tertiary-text: #ffffff; /* Use for text on tertiary support backgrounds */
+
+  /* Interactive States */
+  --color-hover-primary-bg: #1b2a52; /* Use for primary button hover state */
+  --color-hover-secondary-bg: #50688a; /* Use for secondary button hover state */
+  --color-hover-tertiary-bg: #7d8a96; /* Use for tertiary button hover state */
+  --color-hover-accent-bg: #ffb74d; /* Use for accent button hover state */
+
+  --color-active-primary-bg: #0c1531; /* Use for primary button active state */
+  --color-active-secondary-bg: #354960; /* Use for secondary button active state */
+  --color-active-tertiary-bg: #5a6772; /* Use for tertiary button active state */
+  --color-active-accent-bg: #ff8f00; /* Use for accent button active state */
+
+  --color-disabled-bg: #e0e0e0; /* Use for disabled button background */
+  --color-disabled-text: #bdbdbd; /* Use for disabled button text */
+
+  /* Shadows and Overlays */
+  --color-shadow-light: rgba(0, 0, 0, 0.1); /* Use for light shadows */
+  --color-shadow-medium: rgba(0, 0, 0, 0.2); /* Use for medium shadows */
+  --color-shadow-dark: rgba(0, 0, 0, 0.3); /* Use for dark shadows */
+
+  --color-overlay-light: rgba(255, 255, 255, 0.2); /* Use for light overlays */
+  --color-overlay-dark: rgba(0, 0, 0, 0.4); /* Use for dark overlays */
+}
