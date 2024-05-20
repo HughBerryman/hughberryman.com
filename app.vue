@@ -17,6 +17,7 @@ import "~/assets/0_index.css";
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 1fr auto;
+  /* display: flex; */
 }
 
 .sidebar {
@@ -24,8 +25,15 @@ import "~/assets/0_index.css";
 }
 
 .main-content {
+  /* display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between; */
   display: grid;
   grid-template-rows: 1fr auto;
+  /* display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto; */
 }
 
 .main-content > * {

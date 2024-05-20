@@ -1,3 +1,12 @@
 @import "./1_defaults.css";
 @import "./2_semantic-colors.css";
 @import "./3_primitives.css";
+
+.index-style {
+  display: grid;
+  gap: 1rem;
+  width: 70%;
+  margin: 4rem auto;
+  /* padding: 2rem 10rem; */
+  text-align: start;
+}
