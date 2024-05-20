@@ -1,14 +1,15 @@
 <template>
   <div class="index-style">
-    <h1>Hugh Berryman, Sr. Product Designer</h1>
+    <img
+      src="/assets/images/Avatar.png"
+      alt="Hugh Berryman Profile Image"
+      class="profile-image"
+    />
+    <h2>Hugh Berryman, Sr. Product Designer</h2>
+    <h1>Building digital products & experiences.</h1>
     <p>
-      Nearing a decade of experience creating innovative and user-centric
-      designs. Proven track record of leading design teams, enhancing
-      collaboration, and driving product success through strategic design
-      initiatives. Adept at integrating advanced design tools and systems to
-      streamline processes and improve efficiency. Skilled in user experience
-      (UX) and user interface (UI) design, prototyping, and cross-functional
-      collaboration.
+      I love designing and developing digital experiences. Keep it simple, to
+      the point, elegant, and understandable.
     </p>
     <div style="gap: 20px">
       <button class="primary">View Resume</button>
@@ -19,6 +20,8 @@
 
 <style scoped>
 .index-style {
+  display: grid;
+  gap: 1rem;
   width: 70%;
   margin: 0 auto;
   /* padding: 2rem 10rem; */

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import "~/assets/styles.css";
+import "~/assets/0_index.css";
 </script>
 
 <template>

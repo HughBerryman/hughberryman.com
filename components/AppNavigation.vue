@@ -1,3 +1,50 @@
+<script setup lang="ts">
+const navItems = {
+  home: {
+    name: "Home",
+    icon: "lucide:home",
+    path: "/",
+  },
+  projects: {
+    name: "Projects",
+    icon: "lucide:layout-dashboard",
+    path: "/projects",
+  },
+  testimonials: {
+    name: "Testimonials",
+    icon: "lucide:pen-line",
+    path: "/testimonials",
+  },
+  stack: {
+    name: "Stack",
+    icon: "lucide:wrench",
+    path: "/stack",
+  },
+  about: {
+    name: "About",
+    icon: "lucide:user",
+    path: "/about",
+  },
+  contact: {
+    name: "Contact",
+    icon: "lucide:mail",
+    path: "/contact",
+  },
+};
+
+const socials = {
+  // dribbble: {
+  //   url: "https://dribbble.com/acrossthehughniverse",
+  //   icon: "lucide:dribbble",
+  // },
+  linkedin: {
+    url: "https://www.linkedin.com/in/hughberryman",
+    icon: "lucide:linkedin",
+  },
+  github: { url: "https://github.com/hughberriez", icon: "lucide:github" },
+};
+</script>
+
 <template>
   <nav class="sidebar">
     <div>
@@ -10,50 +57,24 @@
         <h2 class="name-heading">Hugh Berryman</h2>
         <p>Sr. Product Designer</p>
       </div>
+
       <ul role="list">
-        <li>
-          <NuxtLink to="/" exact>
-            <i class="icon-home">
-              <Icon name="uil:github" color="black" />
-            </i>
-            Home
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/projects">
-            <i class="icon-briefcase"></i> Projects
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/testimonials">
-            <i class="icon-pencil"></i> Testimonials
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/stack"> <i class="icon-wrench"></i> Stack </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/about"> <i class="icon-user"></i> About </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/contact">
-            <i class="icon-envelope"></i> Contact
+        <li v-for="item in navItems">
+          <NuxtLink :to="item.path">
+            <Icon :name="item.icon" />
+            {{ item.name }}
           </NuxtLink>
         </li>
       </ul>
-      <div class="social-links">
-        <a href="https://dribbble.com/acrossthehughniverse"
-          ><Icon name="uil:dribbble" color="black" class="icon-dribbble"
-        /></a>
-        <a href="https://www.linkedin.com/in/hughberryman"
-          ><Icon name="uil:linkedin" color="black" class="icon-linkedin" />
-        </a>
-        <a href="https://github.com/hughberriez"
-          ><Icon name="uil:github" color="black" class="icon-github" />
-        </a>
-      </div>
+
+      <!-- <div class="social-links">
+        <div v-for="social in socials">
+          <NuxtLink :to="social.url">
+            <Icon :name="social.icon" />
+          </NuxtLink>
+        </div>
+      </div> -->
     </div>
-    <p>Made by Hugh</p>
   </nav>
 </template>
 
@@ -80,8 +101,9 @@
   height: 80px;
   border-radius: 50%;
 }
+
 .name-heading {
-  margin: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 ul[role="list"] a {
@@ -94,23 +116,25 @@ ul[role="list"] a {
 }
 
 ul[role="list"] a:hover {
-  color: var(--primary-700);
-  background-color: var(--primary-200);
+  color: var(--primary-400);
+  background-color: var(--primary-50);
   padding: 1rem 2rem;
 }
 
 .social-links {
   display: flex;
-  justify-content: space-around;
   margin-top: 20px;
+  justify-content: center;
 }
 
-.social-links a {
-  color: #333;
-  font-size: 24px;
+.icon {
+  color: var(--primary-400);
+  margin-right: 10px;
+  transition: color 0.3s ease;
+  font-size: 22px;
 }
 
-.social-links a:hover {
-  color: #007bff;
+.icon:hover {
+  color: var(--primary-500);
 }
 </style>
