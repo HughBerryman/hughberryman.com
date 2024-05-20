@@ -17,7 +17,6 @@ import "~/assets/styles.css";
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 1fr auto;
-  height: 100%;
 }
 
 .sidebar {

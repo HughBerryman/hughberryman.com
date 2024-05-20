@@ -3,14 +3,14 @@
     <div>
       <div class="profile">
         <img
-          src="/assets/Avatar.png"
+          src="/assets/images/Avatar.png"
           alt="Hugh Berryman Profile Image"
           class="profile-image"
         />
         <h2 class="name-heading">Hugh Berryman</h2>
         <p>Sr. Product Designer</p>
       </div>
-      <ul class="nav-links">
+      <ul role="list">
         <li>
           <NuxtLink to="/" exact>
             <i class="icon-home">
@@ -69,6 +69,8 @@
 }
 
 .profile {
+  display: grid;
+  justify-items: center;
   padding: 20px;
   text-align: center;
 }
@@ -82,15 +84,7 @@
   margin: 0.5rem;
 }
 
-.nav-links {
-  list-style: none;
-  padding: 0;
-}
-
-.nav-links li {
-}
-
-.nav-links a {
+ul[role="list"] a {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -99,14 +93,10 @@
   font-size: 16px;
 }
 
-.nav-links a:hover {
+ul[role="list"] a:hover {
   color: var(--primary-700);
   background-color: var(--primary-200);
   padding: 1rem 2rem;
-}
-
-.nav-links i {
-  /* margin-right: 10px; */
 }
 
 .social-links {

@@ -1,13 +1,4 @@
-@import "./semantic-colors.css";
-
-body {
-  background-color: var(--color-bg-default);
-  color: var(--color-text-primary);
-  font-family: "Lato", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
+/* Begin customizations */
 h1,
 h2,
 h3,
@@ -20,9 +11,7 @@ h6 {
 
 p {
   color: var(--color-text-paragraph);
-  margin: 0;
-  padding: 0;
-  line-height: 2.25cap;
+  /* line-height: 2.25cap; */
 }
 
 button {
