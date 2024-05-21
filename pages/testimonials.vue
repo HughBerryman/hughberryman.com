@@ -1,5 +1,5 @@
 <template>
-  <div class="index-style">
+  <div class="container-style">
     <h1>Testimonials</h1>
   </div>
 </template>

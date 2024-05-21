@@ -1,5 +1,5 @@
 <template>
-  <div class="index-style">
+  <div class="container-style">
     <img
       src="/assets/images/Avatar.png"
       alt="Hugh Berryman Profile Image"
@@ -20,7 +20,7 @@
 
 <style scoped>
 @media screen and (max-width: 768px) {
-  .index-style {
+  .container-style {
     width: 90%;
   }
 }

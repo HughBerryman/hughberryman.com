@@ -2,7 +2,7 @@
 @import "./2_semantic-colors.css";
 @import "./3_primitives.css";
 
-.index-style {
+.container-style {
   display: grid;
   gap: 1rem;
   width: 70%;

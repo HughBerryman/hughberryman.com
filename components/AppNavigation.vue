@@ -97,8 +97,8 @@ const socials = {
 }
 
 .profile-image {
-  width: 40;
-  height: 40;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
