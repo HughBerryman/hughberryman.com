@@ -49,8 +49,8 @@ const socials = {
   <nav class="sidebar">
     <div>
       <div class="profile">
-        <img
-          src="/assets/images/Avatar.png"
+        <NuxtImg
+          src="/img/Avatar.png"
           alt="Hugh Berryman Profile Image"
           class="profile-image"
         />
@@ -61,19 +61,11 @@ const socials = {
       <ul role="list">
         <li v-for="item in navItems">
           <NuxtLink :to="item.path">
-            <Icon :name="item.icon" />
+            <Icon :name="item.icon" size="22" />
             {{ item.name }}
           </NuxtLink>
         </li>
       </ul>
-
-      <!-- <div class="social-links">
-        <div v-for="social in socials">
-          <NuxtLink :to="social.url">
-            <Icon :name="social.icon" />
-          </NuxtLink>
-        </div>
-      </div> -->
     </div>
   </nav>
 </template>

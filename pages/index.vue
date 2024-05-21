@@ -1,7 +1,7 @@
 <template>
   <div class="container-style">
-    <img
-      src="/assets/images/Avatar.png"
+    <NuxtImg
+      src="/img/Avatar.png"
       alt="Hugh Berryman Profile Image"
       class="profile-image"
     />
@@ -11,7 +11,7 @@
       I enjoy crafting digital experiences. Always aiming to keep designs
       simple, elegant, and understandable.
     </p>
-    <div style="gap: 20px">
+    <div class="button-group">
       <button class="primary">View Resume</button>
       <button class="secondary">Get in touch</button>
     </div>
@@ -19,9 +19,13 @@
 </template>
 
 <style scoped>
-@media screen and (max-width: 768px) {
-  .container-style {
-    width: 90%;
-  }
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.button-group > * {
+  flex: 1;
+  min-width: fit-content;
 }
 </style>

@@ -4,17 +4,19 @@ const projects = {
     name: "Tribal Credit",
     category: "Design",
     description: "This is a project description",
-    image: "/assets/images/Avatar.png",
+    image: "/img/tribal/TPlat_thumbnail-mobile-platform.png",
   },
   WaterReportCard: {
     name: "WaterReportCard",
-    description: "This is a project description",
-    image: "/assets/images/Avatar.png",
+    category: "Design & Dev",
+    description: "Access to local water insights",
+    image: "/img/liquos/wrc_base-1.png",
   },
   SymetraInsurance: {
-    name: "Symetra Insurance",
-    description: "Sr. Product Designer, Design Systems",
-    image: "/assets/images/Avatar.png",
+    name: "Whoin",
+    category: "Design & Dev",
+    description: "Social Community Startup",
+    image: "/img/whoin/Auth.png",
   },
 };
 </script>
@@ -25,30 +27,41 @@ const projects = {
 
     <ul role="list" class="grid-container">
       <li v-for="project in projects" class="grid-item">
-        <img :src="project.image" :alt="project.description" />
+        <NuxtImg :src="project.image" :alt="project.description" />
+        <p style="margin-top: 0.5rem">{{ project.category }}</p>
         <h3>
           {{ project.name }}
         </h3>
-        <p>{{ project.description }}</p>
       </li>
-      <img src="/assets/images/Avatar.png" alt="project.description" />
     </ul>
   </div>
 </template>
 
-<style>
+<style scoped>
 .grid-container {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
+  gap: 1rem; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
 .grid-item {
-  /* background-color: #f9f9f9;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: center; */
+  transform: scale(1);
+  transition: all 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+img {
+  border-radius: var(--t-border-radius);
+  width: 300px;
+  height: 225px;
+  /* object-fit/; */
 }
 
 /* .grid-item img {

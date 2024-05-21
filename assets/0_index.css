@@ -2,6 +2,10 @@
 @import "./2_semantic-colors.css";
 @import "./3_primitives.css";
 
+:root {
+  --t-border-radius: 0.5rem;
+}
+
 .container-style {
   display: grid;
   gap: 1rem;
@@ -9,4 +13,10 @@
   margin: 4rem auto;
   /* padding: 2rem 10rem; */
   text-align: start;
+}
+
+@media screen and (max-width: 768px) {
+  .container-style {
+    width: 90%;
+  }
 }

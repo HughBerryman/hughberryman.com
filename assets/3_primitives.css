@@ -35,6 +35,7 @@ button {
   font-size: 1rem;
   font-weight: 600;
   transition: background-color 0.2s ease;
+  max-width: 200px;
 }
 
 button.primary {
@@ -43,7 +44,9 @@ button.primary {
 }
 
 button.primary:hover {
-  background-color: var(--color-hover-primary-bg);
+  /* background-color: var(--primary-800); */
+  /* color: var(--neutral-50); */
+  
 }
 
 button.secondary {

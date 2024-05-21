@@ -56,7 +56,9 @@
   --color-support-tertiary-text: #ffffff; /* Use for text on tertiary support backgrounds */
 
   /* Interactive States */
-  --color-hover-primary-bg: #1b2a52; /* Use for primary button hover state */
+  --color-hover-primary-bg: var(
+    --primary-800
+  ); /* Use for primary button hover state */
   --color-hover-secondary-bg: #50688a; /* Use for secondary button hover state */
   --color-hover-tertiary-bg: #7d8a96; /* Use for tertiary button hover state */
   --color-hover-accent-bg: #ffb74d; /* Use for accent button hover state */
