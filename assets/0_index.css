@@ -8,7 +8,7 @@
 
 .container-style {
   display: grid;
-  gap: 1rem;
+  gap: .5rem;
   width: 70%;
   margin: 4rem auto;
   /* padding: 2rem 10rem; */

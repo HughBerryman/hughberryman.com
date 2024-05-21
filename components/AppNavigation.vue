@@ -50,7 +50,7 @@ const socials = {
     <div>
       <div class="profile">
         <NuxtImg
-          src="/img/Avatar.png"
+          src="/img/Avatar-lg.png"
           alt="Hugh Berryman Profile Image"
           class="profile-image"
         />
