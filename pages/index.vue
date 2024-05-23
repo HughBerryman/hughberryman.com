@@ -1,5 +1,5 @@
 <template>
-  <div class="container-style">
+  <div class="main-container">
     <NuxtImg
       src="/img/Avatar-lg.png"
       alt="Hugh Berryman Profile Image"
@@ -37,6 +37,7 @@
   border-radius: 100%;
   width: 100px;
   height: 100px;
+  object-fit: cover;
 }
 
 .button-group {

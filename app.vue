@@ -4,43 +4,33 @@ import "~/assets/0_index.css";
 
 <template>
   <div class="layout">
-    <AppNavigation class="sidebar" />
-    <div class="main-content">
-      <NuxtPage />
-      <AppFooter />
-    </div>
+    <AppNavigation class="sidenav" />
+    <NuxtPage class="main" />
+    <AppFooter class="footer" />
   </div>
 </template>
 
 <style>
 .layout {
   display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto 1fr auto;
-  /* display: flex; */
+  grid-template-columns: 280px 1fr;
+  grid-template-rows: 1fr 60px;
+  grid-template-areas:
+    "sidenav main"
+    "sidenav footer";
+  height: 100vh;
+  overflow: hidden;
 }
 
-.sidebar {
-  grid-row: span 2;
+.sidenav {
+  grid-area: sidenav;
 }
 
-.main-content {
-  /* display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-between; */
-  display: grid;
-  grid-template-rows: 1fr auto;
-  /* display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto 1fr auto; */
+.main {
+  grid-area: main;
 }
 
-.main-content > * {
-  /* grid-row: 1; */
-}
-
-.main-content > AppFooter {
-  /* grid-row: 2; */
+.footer {
+  grid-area: footer;
 }
 </style>

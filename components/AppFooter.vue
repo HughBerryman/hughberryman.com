@@ -6,9 +6,11 @@
 
 <style scoped>
 footer {
-  position: absolute;
+  /* position: absolute; */
+  width: 100%;
+  /* max-height: 20px; */
   bottom: 0;
-  background-color: transparent;
+  background-color: white;
   padding: 10px;
   text-align: center;
   justify-self: center;

@@ -3,20 +3,26 @@
 @import "./3_primitives.css";
 
 :root {
-  --t-border-radius: 0.5rem;
+  --dsaas-border-radius: 0.5rem;
 }
 
-.container-style {
-  display: grid;
-  gap: .5rem;
+.main-container {
+  display: flex;
   width: 70%;
-  margin: 4rem auto;
-  /* padding: 2rem 10rem; */
+  flex-direction: column;
+  margin: 4rem;
+  /* flex-direction: column;
+  margin-left: 280px;
+  display: grid; */
+  /* gap: 0.5rem; */
+  /* height: 100%; */
+  /* margin: 4rem auto;
   text-align: start;
+  overflow: hidden; */
 }
 
 @media screen and (max-width: 768px) {
-  .container-style {
+  .main-container {
     width: 90%;
   }
 }
