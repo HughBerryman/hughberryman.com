@@ -25,7 +25,7 @@
     <h2>Or book a time below to chat</h2>
     <div
       class="calendly-inline-widget"
-      data-url="https://calendly.com/hughberryman/30?hide_event_type_details=0&hide_gdpr_banner=1&primary_color=818ca8"
+      data-url="https://calendly.com/hughberryman/30?hide_event_type_details=0&hide_gdpr_banner=0&primary_color=818ca8"
       style="min-width: 320px; height: 700px"
     ></div>
     <Icon
@@ -40,7 +40,6 @@
 <script setup lang="ts">
 const nuxtApp = useNuxtApp();
 const loading = ref(false);
-nuxtApp.provide("hello", (name: string) => `Hello ${name}!`);
 
 nuxtApp.hook("page:start", () => {
   loading.value = true;
