@@ -31,7 +31,11 @@
       <button class="secondary">
         <p>Get in touch</p>
         <div class="secondary-icon">
-          <Icon name="lucide:contact" size="22" style="margin-top: -3px" />
+          <Icon
+            name="ph:hand-waving-duotone"
+            size="22"
+            style="margin-top: -3px"
+          />
         </div>
       </button>
     </div>

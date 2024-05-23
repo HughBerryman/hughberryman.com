@@ -7,7 +7,7 @@
           alt="Hugh Berryman Profile Image"
           class="profile-image"
         />
-        <div class="name-title-section">
+        <div class="name-role-section">
           <h3 class="name">Hugh Berryman</h3>
           <p class="role">Sr. Product Designer</p>
         </div>
@@ -44,13 +44,6 @@
   padding: 20px;
   align-items: center;
 }
-.profile-textinfo {
-  margin-left: 1rem;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 10px; */
-}
 
 .profile-image {
   width: 45px;
@@ -59,13 +52,13 @@
   object-fit: cover;
 }
 
-.name-title-section {
+.name-role-section {
   margin-top: 0.5rem;
   font-size: 16px;
   font-weight: 500;
 }
+
 .name {
-  color: var(--color-text-paragraph);
   font-weight: 700;
 }
 
@@ -124,32 +117,32 @@ ul[role="list"] a:active {
 const navItems = {
   home: {
     name: "Home",
-    icon: "lucide:home",
+    icon: "ph:house-duotone",
     path: "/",
   },
   projects: {
     name: "Projects",
-    icon: "lucide:layout-dashboard",
+    icon: "ph:briefcase-duotone",
     path: "/projects",
   },
   testimonials: {
     name: "Testimonials",
-    icon: "lucide:pen-line",
+    icon: "ph:quotes-duotone",
     path: "/testimonials",
   },
   stack: {
     name: "Stack",
-    icon: "lucide:wrench",
+    icon: "ph:stack-duotone",
     path: "/stack",
   },
   about: {
     name: "About",
-    icon: "lucide:user",
+    icon: "ph:user-circle-duotone",
     path: "/about",
   },
   contact: {
     name: "Contact",
-    icon: "lucide:mail",
+    icon: "ph:envelope-simple-duotone",
     path: "/contact",
   },
 };
