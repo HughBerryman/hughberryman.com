@@ -16,7 +16,7 @@
       <ul role="list" class="nav-items-container">
         <li v-for="item in navItems">
           <NuxtLink :to="item.path">
-            <Icon :name="item.icon" size="22" />
+            <Icon :name="item.icon" size="24" />
             {{ item.name }}
           </NuxtLink>
         </li>
@@ -43,6 +43,7 @@
   flex-direction: row;
   padding: 20px;
   align-items: center;
+  margin: 1.5rem;
 }
 
 .profile-image {
@@ -50,10 +51,10 @@
   height: 45px;
   border-radius: 50%;
   object-fit: cover;
+  margin-right: 0.8rem;
 }
 
 .name-role-section {
-  margin-top: 0.5rem;
   font-size: 16px;
   font-weight: 500;
 }
@@ -75,42 +76,40 @@
 ul[role="list"] a {
   display: flex;
   align-items: center;
-  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
   color: var(--color-text-paragraph);
   padding: 1rem 2rem;
-  font-size: 16px;
 }
 
-ul[role="list"] a:hover,
-a.router-link-active,
-a.router-link-exact-active {
+ul[role="list"] a:hover {
   color: var(--primary-400);
-  background-color: var(--primary-50);
+  background-color: var(--primary-100);
+  /* padding: 1rem 2rem; */
+}
+
+ul[role="list"] a.router-link-active,
+a.router-link-exact-active {
+  color: var(--primary-500);
+  background-color: var(--primary-100);
   padding: 1rem 2rem;
-}
-
-ul[role="list"] a:active {
-  /* color: var(--primary-400);
-  background-color: var(--primary-100); */
-}
-
-.social-links {
-  display: flex;
-  margin-top: 20px;
-  justify-content: center;
 }
 
 .icon {
   color: var(--primary-400);
-  margin-right: 10px;
-  /* margin-left: 10px; */
+  margin-right: 1rem;
   transition: color 0.3s ease;
-  font-size: 22px;
 }
 
-.icon:hover {
+a.router-link-exact-active .icon {
   color: var(--primary-500);
 }
+
+/* .social-links {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+} */
 </style>
 
 <script setup lang="ts">
@@ -136,7 +135,7 @@ const navItems = {
     path: "/stack",
   },
   about: {
-    name: "About",
+    name: "Resume",
     icon: "ph:user-circle-duotone",
     path: "/about",
   },
