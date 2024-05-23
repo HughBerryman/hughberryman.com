@@ -19,7 +19,7 @@ import "~/assets/0_index.css";
     "sidenav main"
     "sidenav footer";
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .sidenav {
