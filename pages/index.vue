@@ -29,7 +29,7 @@
       </button>
 
       <button class="secondary">
-        <p>Get in touch</p>
+        Get in touch
         <div class="secondary-icon">
           <Icon
             name="ph:hand-waving-duotone"
@@ -82,28 +82,13 @@ button {
   transition: all 0.3s ease;
 }
 
-.secondary {
-  position: relative;
-}
-
-.secondary::before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px; /* Thickness of the underline */
-  bottom: 0;
-  left: 0;
-  background-color: var(--primary-300);
-  visibility: hidden; /* Hide initially */
-  transition: all 0.3s ease;
-}
-
-.secondary:hover::before {
-  visibility: visible; /* Show on hover */
-  width: 100%; /* Animate to full width */
-}
-
 .secondary-icon {
   color: var(--primary-400);
+}
+
+.secondary:hover .secondary-icon {
+  color: var(--primary-500);
+  transition: all 0.2s ease;
+  rotate: 65deg;
 }
 </style>

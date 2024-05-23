@@ -55,21 +55,24 @@ button.primary {
   background-color: var(--primary-600);
   border: 2px solid transparent;
   color: var(--color-primary-text);
+  font-weight: 500;
 }
 
 button.primary:hover {
   /* background-color: var(--primary-800); */
   /* color: var(--neutral-50); */
-  border-color: var(--secondary-500);
+  border-color: var(--secondary-200);
 }
 
 button.secondary {
   background-color: var(--color-secondary-bg);
   border: 1px solid var(--color-border-light);
-  color: var(--neutral-800);
+  font-weight: 500;
+  color: var(--primary-400);
 }
 
 button.secondary:hover {
-  background-color: var(--neutral-200);
-  border-color: var(--neutral-500);
+  /* background-color: var(--neutral-200); */
+  border: 2px solid var(--primary-300);
+  color: var(--primary-500);
 }
