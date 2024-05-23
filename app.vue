@@ -32,6 +32,8 @@ import "~/assets/0_index.css";
 
 .main {
   grid-area: main;
+  overscroll-behavior-x: none;
+  overscroll-behavior: none;
 }
 
 .footer {

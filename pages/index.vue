@@ -1,5 +1,5 @@
 <template>
-  <div class="main-container">
+  <div class="main-container" style="max-width: 900px">
     <NuxtImg
       src="/img/Avatar-lg.png"
       alt="Hugh Berryman Profile Image"
@@ -18,7 +18,7 @@
     </p>
     <div class="button-group">
       <button class="primary">
-        View resume
+        View projects
         <div class="primary-icon">
           <Icon
             name="lucide:arrow-up-right"
@@ -27,6 +27,7 @@
           />
         </div>
       </button>
+
       <button class="secondary">
         <p>Get in touch</p>
         <div class="secondary-icon">

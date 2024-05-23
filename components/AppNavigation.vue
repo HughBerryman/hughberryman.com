@@ -7,9 +7,9 @@
           alt="Hugh Berryman Profile Image"
           class="profile-image"
         />
-        <div class="profile-textinfo">
-          <h3 class="name-heading">Hugh Berryman</h3>
-          <p>Sr. Product Designer</p>
+        <div class="name-title-section">
+          <h3 class="name">Hugh Berryman</h3>
+          <p class="role">Sr. Product Designer</p>
         </div>
       </div>
 
@@ -53,14 +53,26 @@
 }
 
 .profile-image {
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.name-heading {
+.name-title-section {
   margin-top: 0.5rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+.name {
+  color: var(--color-text-paragraph);
+  font-weight: 700;
+}
+
+.role {
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--color-text-secondary);
 }
 
 .nav-items-container {

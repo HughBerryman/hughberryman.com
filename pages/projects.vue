@@ -16,9 +16,6 @@
 
 <style scoped>
 .projects-container {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem; */
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
@@ -37,29 +34,12 @@ img {
   border-radius: var(--dsaas-border-radius);
   width: 300px;
   height: 225px;
-  /* object-fit/; */
 }
-
-/* .grid-item img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 0.5rem;
-}
-
-.grid-item h3 {
-  margin: 0.5rem 0;
-  font-size: 1.2rem;
-}
-
-.grid-item p {
-  margin: 0;
-  color: #666;
-} */
 </style>
 
 <script setup lang="ts">
 const projects = {
+  // Symetra: {},
   WaterReportCard: {
     name: "WaterReportCard",
     category: "Design & Dev",
@@ -133,6 +113,5 @@ const projects = {
     description: "A relaxation and meditation app designed for stress relief.",
     image: "/img/whoin/Auth.png",
   },
-  // Symetra
 };
 </script>

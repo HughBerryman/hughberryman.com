@@ -2,7 +2,7 @@
   <div class="main-container">
     <h1>Testimonials</h1>
 
-    <ul role="list" class="grid-container">
+    <ul role="list" class="testimonial-container">
       <li v-for="testimonial in testimonials" class="testimonial-card">
         <div style="display: flex">
           <NuxtImg
@@ -21,8 +21,8 @@
             <h3 class="name">
               {{ testimonial.name }}
             </h3>
-            <p class="job-title">{{ testimonial.jobTitle }}</p>
-            <p class="company">{{ testimonial.company }}</p>
+            <h4 class="job-title">{{ testimonial.jobTitle }}</h4>
+            <h4 class="company">{{ testimonial.company }}</h4>
           </div>
         </div>
         <p class="testimonial">{{ testimonial.recommendation }}</p>
@@ -32,21 +32,27 @@
 </template>
 
 <style scoped>
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+.testimonial-container {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  gap: 1rem; */
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
+
 .testimonial-card {
   background-color: #fff;
   border-radius: 16px;
-  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   padding: 2rem;
   border: 1px solid var(--primary-100);
   max-width: 350px;
-  /* margin: 20px; */
   text-align: center;
   font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.testimonial-card:hover {
+  box-shadow: 0 0 10px rgba(78, 78, 95, 0.1);
 }
 
 .profile-image {
@@ -57,13 +63,7 @@
 }
 
 .name {
-  /* font-size: 1.5rem; */
-  /* font-weight: bold;
-  margin-bottom: 5px; */
-  /* text-overflow: ellipsis;
-  line-clamp: 1;
-  word-wrap: break-word; */
-  display: block; /* or inline-block */
+  display: block;
   text-overflow: ellipsis;
   word-wrap: break-word;
   overflow: hidden;
