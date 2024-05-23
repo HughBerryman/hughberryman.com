@@ -70,7 +70,7 @@
 }
 
 .nav-items-container {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 ul[role="list"] a {
@@ -79,7 +79,7 @@ ul[role="list"] a {
   font-size: 15px;
   font-weight: 500;
   color: var(--color-text-paragraph);
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
 }
 
 ul[role="list"] a:hover {
@@ -92,7 +92,7 @@ ul[role="list"] a.router-link-active,
 a.router-link-exact-active {
   color: var(--primary-500);
   background-color: var(--primary-100);
-  padding: 1rem 2rem;
+  /* padding: 1rem 3rem; */
 }
 
 .icon {
@@ -129,15 +129,15 @@ const navItems = {
     icon: "ph:quotes-duotone",
     path: "/testimonials",
   },
-  stack: {
-    name: "Stack",
-    icon: "ph:stack-duotone",
-    path: "/stack",
-  },
   about: {
     name: "Resume",
     icon: "ph:user-circle-duotone",
     path: "/about",
+  },
+  stack: {
+    name: "Stack",
+    icon: "ph:stack-duotone",
+    path: "/stack",
   },
   contact: {
     name: "Contact",

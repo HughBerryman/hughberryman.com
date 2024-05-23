@@ -1,16 +1,38 @@
 <template>
   <div class="main-container">
-    <h1>About Hugh</h1>
-    <p>
+    <h1>View & Download Resume</h1>
+    <!-- <p>
       Product Designer with ten years of experience specializing in B2B, B2C
       solutions.
-    </p>
+    </p> -->
+
+    <div
+      style="display: flex; gap: 0.5rem; margin-bottom: 2rem"
+      class="button-group"
+    >
+      <button class="primary">
+        As PDF
+        <div class="primary-icon" style="rotate: 0deg">
+          <Icon name="ph:file-pdf-duotone" size="20" style="margin-top: 3px" />
+        </div></button
+      ><button class="secondary">
+        As Word Version
+        <div class="secondary-icon" style="rotate: 0deg">
+          <Icon
+            name="ph:microsoft-word-logo-duotone"
+            size="22"
+            style="margin-top: -3px"
+          />
+        </div>
+      </button>
+    </div>
+
     <NuxtImg
       src="/img/Hugh-Berryman-Resume-2024.svg"
-      alt="Hugh Berryman Profile Image"
-      class="profile-image"
+      alt="Hugh Berryman Resume"
+      class="resume"
     />
-    <p>
+    <!-- <p>
       Hugh is a seasoned digital product designer, with over eight years of
       experience in the field. He has a rich work history, having contributed to
       the success of both small startups and large corporations. Hugh's
@@ -32,6 +54,17 @@
       into functional applications without traditional coding. His proficiency
       with various no-code platforms enables him to swiftly prototype, iterate,
       and build applications that truly resonate with users.
-    </p>
+    </p> -->
   </div>
 </template>
+
+<style scoped>
+.resume {
+  border-radius: var(--dsaas-border-radius);
+  border: 1px solid var(--primary-100);
+}
+
+.resume:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+</style>

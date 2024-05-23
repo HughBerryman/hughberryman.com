@@ -50,45 +50,4 @@
   object-fit: cover;
 }
 
-.button-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.button-group > * {
-  flex: 1;
-  min-width: fit-content;
-}
-
-button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.primary:hover .primary-icon {
-  transition: all 0.3s ease;
-  rotate: 45deg;
-}
-
-.primary-icon {
-  background-color: var(--primary-500);
-  border-radius: 100%;
-  width: 2rem;
-  height: 2rem;
-
-  transition: all 0.3s ease;
-}
-
-.secondary-icon {
-  color: var(--primary-400);
-}
-
-.secondary:hover .secondary-icon {
-  color: var(--primary-500);
-  transition: all 0.2s ease;
-  rotate: 65deg;
-}
 </style>
