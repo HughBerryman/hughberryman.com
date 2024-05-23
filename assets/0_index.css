@@ -8,21 +8,17 @@
 
 .main-container {
   display: flex;
-  width: 70%;
   flex-direction: column;
-  margin: 4rem;
-  /* flex-direction: column;
-  margin-left: 280px;
-  display: grid; */
-  /* gap: 0.5rem; */
-  /* height: 100%; */
-  /* margin: 4rem auto;
-  text-align: start;
-  overflow: hidden; */
+  max-width: 900px;
+  width: 70%;
+  margin-inline: auto;
+  margin-top: 4rem;
+  gap: 1rem;
 }
 
 @media screen and (max-width: 768px) {
   .main-container {
     width: 90%;
+    margin-inline: 1.5rem;
   }
 }

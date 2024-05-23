@@ -5,11 +5,16 @@
       alt="Hugh Berryman Profile Image"
       class="profile-image"
     />
-    <h2>Welcome!</h2>
-    <h1>Building digital products & experiences.</h1>
+    <h2>Hey, i'm Hugh.</h2>
+    <h1>I design and develop digital experiences.</h1>
     <p>
-      I enjoy crafting digital experiences. Always aiming to keep designs
-      simple, elegant, and understandable.
+      I'm a seasoned Product Designer with nearly a decade of experience in
+      creating innovative and user-centric designs. Proven track record of
+      leading design teams, enhancing collaboration, and driving product success
+      through strategic design initiatives. Adept at integrating advanced design
+      tools and systems to streamline processes and improve efficiency. Skilled
+      in user experience (UX) and user interface (UI) design, prototyping, and
+      cross-functional collaboration.
     </p>
     <div class="button-group">
       <button class="primary">
@@ -23,7 +28,7 @@
         </div>
       </button>
       <button class="secondary">
-        Get in touch
+        <p>Get in touch</p>
         <div class="secondary-icon">
           <Icon name="lucide:contact" size="22" style="margin-top: -3px" />
         </div>
@@ -71,6 +76,28 @@ button {
 
   transition: all 0.3s ease;
 }
+
+.secondary {
+  position: relative;
+}
+
+.secondary::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px; /* Thickness of the underline */
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-300);
+  visibility: hidden; /* Hide initially */
+  transition: all 0.3s ease;
+}
+
+.secondary:hover::before {
+  visibility: visible; /* Show on hover */
+  width: 100%; /* Animate to full width */
+}
+
 .secondary-icon {
   color: var(--primary-400);
 }

@@ -1,18 +1,30 @@
 <template>
   <footer>
-    <p>· Made by Hugh ·</p>
+    <div class="dot" />
+    <p>Made by <span>Hugh</span></p>
+    <div class="dot" />
   </footer>
 </template>
 
 <style scoped>
 footer {
-  /* position: absolute; */
-  width: 100%;
-  /* max-height: 20px; */
-  bottom: 0;
-  background-color: white;
-  padding: 10px;
   text-align: center;
-  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dot {
+  display: inline-flex;
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: var(--primary-200);
+}
+
+span {
+  color: var(--primary-700);
 }
 </style>

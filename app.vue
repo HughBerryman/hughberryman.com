@@ -4,6 +4,11 @@ import "~/assets/0_index.css";
 
 <template>
   <div class="layout">
+    <NuxtImg
+      src="/Blur.png"
+      alt="Background Image with Blur for effect"
+      class="bkg-img"
+    />
     <AppNavigation class="sidenav" />
     <NuxtPage class="main" />
     <AppFooter class="footer" />
@@ -14,12 +19,11 @@ import "~/assets/0_index.css";
 .layout {
   display: grid;
   grid-template-columns: 280px 1fr;
-  grid-template-rows: 1fr 60px;
+  grid-template-rows: 1fr 80px;
   grid-template-areas:
     "sidenav main"
     "sidenav footer";
   height: 100vh;
-  /* overflow: hidden; */
 }
 
 .sidenav {
@@ -32,5 +36,15 @@ import "~/assets/0_index.css";
 
 .footer {
   grid-area: footer;
+  border-top: 1px solid var(--primary-100);
+}
+
+.bkg-img {
+  position: fixed;
+  top: 0;
+  left: 45%;
+  z-index: -1;
+  width: 60%;
+  height: 60%;
 }
 </style>
