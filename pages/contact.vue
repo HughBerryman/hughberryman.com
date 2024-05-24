@@ -33,7 +33,6 @@
 
     <a href="https://calendly.com/hughberryman/30" target="_blank"
       ><div class="containerBox">
-        <!-- <h2 class="text-box">Calendly link here</h2> -->
         <NuxtImg
           src="/img/calendly.png"
           alt="Book a time with hugh via Calendly"
@@ -42,10 +41,6 @@
     ></a>
   </div>
 </template>
-
-<script setup lang="ts">
-const nuxtApp = useNuxtApp();
-</script>
 
 <style scoped>
 .icon {
@@ -59,12 +54,9 @@ a {
 
 a:hover {
   text-decoration: underline;
-  /* color: var(--primary-200); */
 }
 .containerBox {
-  /* position: relative; */
   display: inline-block;
-  /* background-color: pink; */
   width: 100%;
   max-width: 700px;
 }
@@ -73,7 +65,6 @@ a:hover {
   position: relative;
   top: 100px;
   left: 100px;
-  /* transform: translate(-50%, -50%); */
   font-size: 1.5rem;
   font-weight: 500;
   color: var(--primary-600);
@@ -82,14 +73,8 @@ a:hover {
 
 .booking {
   z-index: 10;
-  /* margin: 1rem; */
-  /* filter: blur(3px); */
   border: 1px solid var(--primary-100);
   border-radius: 0.5rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
-
-/* .containerBox:hover .booking {
-  filter: blur(10px);
-} */
 </style>

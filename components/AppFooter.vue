@@ -1,25 +1,30 @@
 <template>
   <footer>
     <div class="dot" />
-    <p>Made by <NuxtLink to="/contact">Hugh</NuxtLink></p>
+    <p>
+      Made by <NuxtLink to="/contact"><span>Hugh</span></NuxtLink>
+    </p>
 
     <div class="dot" />
     <a href="https://github.com/HughBerriez/hughberryman.com">
-      <p>View my code <span>here</span></p>
-      <div
-        style="
-          padding: 0.25rem;
-          background-color: var(--primary-50);
-          border-radius: 100%;
-        "
-      >
+      <p>
+        View
         <Icon
           name="ph:github-logo-duotone"
           size="22"
           style="margin-top: -3px"
-        /></div
-    ></a>
+        />code
+        <span> here</span>
+      </p>
+    </a>
     <div class="dot" />
+    <!-- <div
+      style="
+        padding: 0.25rem;
+        background-color: var(--primary-50);
+        border-radius: 100%;
+      "
+    ></div> -->
   </footer>
 </template>
 
@@ -31,7 +36,6 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  flex-wrap: nowrap;
 }
 
 .dot {
@@ -44,5 +48,9 @@ footer {
 
 span {
   color: var(--primary-700);
+}
+
+p:hover span {
+  text-decoration: underline;
 }
 </style>
