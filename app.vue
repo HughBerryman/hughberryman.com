@@ -30,7 +30,7 @@ const showSideNav = ref(false);
       </div>
 
       <Icon
-        name="ph:list-duotone"
+        :name="showSideNav ? 'ph:x-circle-duotone' : 'ph:list-duotone'"
         size="24"
         class="hamburger-icon"
         @click="showSideNav = !showSideNav"
@@ -47,7 +47,7 @@ const showSideNav = ref(false);
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 60px 1fr 80px;
+  grid-template-rows: 65px 1fr 80px;
   grid-template-areas:
     "header"
     "main"

@@ -58,7 +58,12 @@
   }
 
   .profile-header {
-    margin: .5rem;
+    margin: 0.5rem;
     padding: 0;
+  }
+
+  .profile-image {
+    width: 35px;
+    height: 35px;
   }
 }
