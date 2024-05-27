@@ -53,17 +53,20 @@ button {
   font-weight: 500;
   transition: background-color 0.2s ease;
   max-width: 200px;
+
+  height: 100%;
 }
 
 .button-group {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 0.5rem;
 }
 
 .button-group > * {
   flex: 1;
   min-width: fit-content;
+  gap: 0.5rem;
 }
 
 button.primary {
@@ -102,6 +105,9 @@ button.secondary:hover {
   border-radius: 100%;
   width: 2rem;
   height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   transition: all 0.3s ease;
 }

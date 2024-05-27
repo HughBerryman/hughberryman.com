@@ -23,13 +23,13 @@
       />@HughBerryman</a
     >
     <h2>Book a time via the following link</h2>
-    <a href="https://x.com/hughberryman" target="_blank"
+    <a href="https://calendly.com/hughberryman/30" target="_blank"
       ><Icon
         name="ph:calendar-duotone"
         size="36"
         style="color: var(--primary-500)"
-      />Schedule a meeting instantly</a
-    >
+      />Schedule a meeting instantly
+    </a>
 
     <a href="https://calendly.com/hughberryman/30" target="_blank"
       ><div class="containerBox">
