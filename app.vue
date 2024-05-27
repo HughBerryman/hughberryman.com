@@ -15,7 +15,19 @@ const showSideNav = ref(false);
         <h3>Hugh Berryman</h3>
         <p>Sr. Product Designer</p>
       </NuxtLink> -->
-      <div />
+      <!-- <div /> -->
+
+      <div class="profile-header">
+        <NuxtImg
+          src="/img/hugh-working-headshot-crop.jpeg"
+          alt="Hugh Berryman Profile Image"
+          class="profile-image"
+        />
+        <div class="name-role-section">
+          <h3 class="name">Hugh Berryman</h3>
+          <p class="role">Sr. Product Designer</p>
+        </div>
+      </div>
 
       <Icon
         name="ph:list-duotone"

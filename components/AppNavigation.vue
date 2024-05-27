@@ -38,37 +38,6 @@
   border-right: 1px solid var(--primary-100);
 }
 
-.profile-header {
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-  align-items: center;
-  margin: 1.5rem;
-}
-
-.profile-image {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 0.8rem;
-}
-
-.name-role-section {
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.name {
-  font-weight: 700;
-}
-
-.role {
-  font-weight: 500;
-  font-size: 12px;
-  color: var(--color-text-secondary);
-}
-
 .nav-items-container {
   margin-top: 4rem;
 }
@@ -116,6 +85,10 @@ a.router-link-exact-active .icon {
     /* animate in */
     animation: slideIn 0.5s forwards;
     transition: 2.2s cubic-bezier(0.36, -0.01, 0, 0.77);
+  }
+
+  .profile-header {
+    display: none;
   }
 }
 </style>
