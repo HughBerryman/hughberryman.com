@@ -2,11 +2,16 @@
   <div class="main-container">
     <h1>View & Download Resume</h1>
     <div
-      style="display: flex; gap: 0.5rem; margin-bottom: 2rem"
       class="button-group"
+      style="
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 2rem;
+        max-width: fit-content;
+      "
     >
       <!-- href="/resume/Hugh-Berryman-Resume-2024.pdf" -->
-      <a download target="_blank" class="download-link">
+      <a download target="_blank" class="download-link button-group">
         <button class="primary">
           As PDF
           <div class="primary-icon" style="rotate: 0deg">
@@ -19,7 +24,7 @@
         </button>
       </a>
       <!-- href="/resume/Hugh-Berryman-Resume-2024.docx" -->
-      <a download target="_blank" class="download-link">
+      <a download target="_blank" class="download-link button-group">
         <button class="secondary">
           As Word Version
           <div class="secondary-icon" style="rotate: 0deg">
@@ -43,6 +48,7 @@
 
 <style scoped>
 .download-link {
+  /* padding: 0.5rem 1rem; */
 }
 
 .resume {
