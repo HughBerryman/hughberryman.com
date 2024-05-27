@@ -22,7 +22,7 @@
         style="color: var(--primary-500)"
       />@HughBerryman</a
     >
-    <h2>Book a time via the following link</h2>
+    <h2 style="margin-top: 1rem">Book a time via the following link</h2>
     <a href="https://calendly.com/hughberryman/30" target="_blank"
       ><Icon
         name="ph:calendar-duotone"

@@ -67,7 +67,7 @@ const projects = {
     name: "Centro, Design System",
     category: "Design System",
     description: "A comprehensive design system for building consistent UIs.",
-    image: "/img/tribal/centro-thumbnail.png",
+    image: "/img/projects/tribal/centro-thumbnail.png",
     url: "https://dribbble.com/shots/23330596-Design-System-Centro",
   },
   Whoin: {
