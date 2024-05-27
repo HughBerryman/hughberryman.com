@@ -1,7 +1,7 @@
 <template>
   <div class="main-container" style="max-width: 900px">
     <NuxtImg
-      src="/img/Avatar-lg.png"
+      src="/img/hugh-working-headshot-crop.jpeg"
       alt="Hugh Berryman Profile Image"
       class="profile-image"
     />

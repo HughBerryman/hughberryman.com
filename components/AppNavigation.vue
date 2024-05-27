@@ -3,7 +3,7 @@
     <div>
       <div class="profile-header">
         <NuxtImg
-          src="/img/Avatar-lg.png"
+          src="/img/hugh-working-headshot-crop.jpeg"
           alt="Hugh Berryman Profile Image"
           class="profile-image"
         />
@@ -105,11 +105,19 @@ a.router-link-exact-active .icon {
   color: var(--primary-500);
 }
 
-/* .social-links {
-  display: flex;
-  margin-top: 20px;
-  justify-content: center;
-} */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+    animation: slideIn 0.5s forwards;
+  }
+  .showSidebar {
+    display: block;
+    z-index: 100;
+    /* animate in */
+    animation: slideIn 0.5s forwards;
+    transition: 2.2s cubic-bezier(0.36, -0.01, 0, 0.77);
+  }
+}
 </style>
 
 <script setup lang="ts">
