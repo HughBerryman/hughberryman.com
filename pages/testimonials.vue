@@ -45,12 +45,13 @@
 <style scoped>
 .testimonial-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(1fr 1fr, minmax(350px, 1fr));
   gap: 1rem;
   /* display: flex;
   flex-wrap: wrap;
   gap: 1rem; */
 }
+
 .icon {
   color: var(--primary-400);
 }
