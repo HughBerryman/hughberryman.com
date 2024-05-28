@@ -25,7 +25,7 @@
       </NuxtLink>
 
       <NuxtLink to="/contact" class="secondary-button">
-        View projects
+        Get in touch
         <div class="secondary-icon">
           <Icon name="ph:hand-waving-duotone" size="20" />
         </div>
