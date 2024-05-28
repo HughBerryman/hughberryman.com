@@ -13,6 +13,7 @@
     "@nuxt/image": "^1.7.0",
     "@vercel/speed-insights": "^1.0.11",
     "nuxt": "^3.11.2",
+    "nuxt-gtag": "^2.0.6",
     "nuxt-module-hotjar": "^1.2.6",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
