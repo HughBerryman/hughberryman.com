@@ -78,6 +78,8 @@ a.router-link-exact-active .icon {
   .sidebar {
     display: none;
     animation: slideIn 0.5s forwards;
+    transition: 2.2s cubic-bezier(0.36, -0.01, 0, 0.77);
+    transition: transform 300ms ease-out;
   }
   .showSidebar {
     display: block;
@@ -85,6 +87,7 @@ a.router-link-exact-active .icon {
     /* animate in */
     animation: slideIn 0.5s forwards;
     transition: 2.2s cubic-bezier(0.36, -0.01, 0, 0.77);
+    transition: transform 300ms ease-out;
   }
 
   .profile-header {
