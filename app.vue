@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import "~/assets/0_index.css";
+import { SpeedInsights } from "@vercel/speed-insights/vue";
 const showSideNav = ref(false);
 </script>
 
@@ -16,7 +17,7 @@ const showSideNav = ref(false);
         <p>Sr. Product Designer</p>
       </NuxtLink> -->
       <!-- <div /> -->
-
+      <SpeedInsights />
       <div class="profile-header">
         <NuxtImg
           src="/img/hugh-working-headshot-crop.jpeg"
