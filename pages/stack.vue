@@ -61,7 +61,7 @@
 }
 
 .skill {
-  padding: 0.5rem;
+  padding: 1rem 1.5rem;
   border: 1px solid transparent;
   list-style-type: none;
   font-size: 0.85rem;
@@ -78,7 +78,8 @@
 }
 
 .skill:hover {
-  border: 1px solid var(--primary-100);
+  /* border: 1px solid var(--primary-50); */
+  box-shadow: 0 0 10px rgba(78, 78, 95, 0.1);
 }
 </style>
 
@@ -92,8 +93,8 @@ const tools = [
   { name: "Vue", icon: "logos:vue" },
   { name: "Nuxt", icon: "logos:nuxt-icon" },
   { name: "NextJS", icon: "logos:nextjs-icon" },
-  { name: "React Native", icon: "tabler:brand-react-native" },
   { name: "React", icon: "logos:react" },
+  { name: "React Native", icon: "tabler:brand-react-native" },
   { name: "TypeScript", icon: "logos:typescript-icon" },
   { name: "Tailwind", icon: "logos:tailwindcss-icon" },
   { name: "CSS", icon: "vscode-icons:file-type-css" },

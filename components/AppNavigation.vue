@@ -21,6 +21,12 @@
           </NuxtLink>
         </li>
       </ul>
+
+      <!-- <div class="social-links" v-for="social in socials">
+        <NuxtLink :to="social.url">
+          <Icon :name="social.icon" />
+        </NuxtLink>
+      </div> -->
     </div>
   </nav>
 </template>
@@ -72,6 +78,23 @@ a.router-link-exact-active {
 
 a.router-link-exact-active .icon {
   color: var(--primary-500);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 25px;
+
+  border-top: red;
+  background-color: pink;
+  border-radius: 100%;
+}
+
+.social-links.hover {
+  color: blue;
 }
 
 @media (max-width: 768px) {
@@ -139,6 +162,9 @@ const socials = {
     url: "https://www.linkedin.com/in/hughberryman",
     icon: "lucide:linkedin",
   },
-  github: { url: "https://github.com/hughberriez", icon: "lucide:github" },
+  github: {
+    url: "https://github.com/HughBerriez/hughberryman.com",
+    icon: "lucide:github",
+  },
 };
 </script>
