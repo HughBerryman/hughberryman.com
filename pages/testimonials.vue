@@ -33,12 +33,12 @@
 
 <style scoped>
 .testimonial-container {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
-  gap: 1rem; */
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; */
 }
 
 .testimonial-card {
@@ -46,7 +46,7 @@
   border-radius: 16px;
   padding: 2rem;
   border: 1px solid var(--primary-100);
-  max-width: 350px;
+  /* max-width: 350px; */
   text-align: center;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }

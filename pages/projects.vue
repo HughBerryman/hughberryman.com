@@ -18,24 +18,29 @@
 
 <style scoped>
 .projects-container {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 1.5rem; */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
 }
 
 .grid-item {
+  width: auto;
   transition: all 0.3s ease;
 }
 
-.grid-item:hover {
+.grid-item:hover,
+:active {
   transform: scale(1.05);
   transition: all 0.3s ease;
 }
 
 img {
   border-radius: var(--dsaas-border-radius);
-  width: 300px;
-  height: 225px;
+  aspect-ratio: 9/6 auto;
 }
 </style>
 
@@ -46,14 +51,14 @@ const projects = {
     name: "Tribal Platform",
     category: "Design",
     description: "Tribal Core Platform Experiences",
-    image: "/img/projects/tribal/TPlat_thumbnail-mobile-platform.png",
+    image: "/img/projects/tribal/mobile-platform-1.png",
     url: "https://dribbble.com/shots/23337346-Tribal-Platform",
   },
   WaterReportCard: {
     name: "WaterReportCard",
     category: "Design & Dev",
     description: "Access to local water insights",
-    image: "/img/projects/liquos/wrc_base-1.png",
+    image: "/img/projects/liquos/wrc_base.png",
     url: "https://dribbble.com/shots/23312673-Water-Report-Card-Web",
   },
   TribalDefi: {
@@ -89,7 +94,7 @@ const projects = {
     category: "Design",
     description:
       "A blog platform for sharing marketing strategies and insights.",
-    image: "/img/projects/tribal/marketing-base-thumbnail.png",
+    image: "/img/projects/tribal/marketingbase.png",
     url: "https://dribbble.com/shots/23323544-Tribal-Marketing-Blog",
   },
   ChillRems: {
