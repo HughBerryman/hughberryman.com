@@ -1,6 +1,13 @@
-# Nuxt 3 Minimal Starter
+## Hugh Berryman's Portfolio Site
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to the source code repository for my personal website. This living project aims to be a test kitchen for my CSS skills as well as learning more about the Nuxt/Vue ecosystems.
+
+## About Me
+
+I design and develop digital experiences. I'm a seasoned Product Designer with nearly a decade of experience in creating innovative and user-centric designs. Proven track record of leading design teams, enhancing collaboration, and driving product success through strategic design initiatives. Adept at integrating advanced design tools and systems to streamline processes and improve efficiency. Skilled in user experience (UX) and user interface (UI) design, prototyping, and cross-functional collaboration.
+
+Learn more about my experience here at [www.hughberryman.com](https://www.hughberryman.com/)
+
 
 ## Setup
 
