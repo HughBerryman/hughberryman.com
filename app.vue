@@ -2,6 +2,14 @@
 import "~/assets/0_index.css";
 import { SpeedInsights } from "@vercel/speed-insights/vue";
 const showSideNav = ref(false);
+
+const toggleSideNav = () => {
+  showSideNav.value = !showSideNav.value;
+};
+
+const closeSideNav = () => {
+  showSideNav.value = false;
+};
 </script>
 
 <template>
@@ -34,10 +42,15 @@ const showSideNav = ref(false);
         :name="showSideNav ? 'ph:x-circle-duotone' : 'ph:list-duotone'"
         size="24"
         class="hamburger-icon"
-        @click="showSideNav = !showSideNav"
+        @click="toggleSideNav"
       />
     </header>
-    <AppNavigation class="sideNav" :class="{ showSidebar: showSideNav }" />
+    <AppNavigation
+      class="sideNav"
+      :class="{ showSidebar: showSideNav }"
+      :showSideNav="showSideNav"
+      @close-sidenav="closeSideNav"
+    />
     <NuxtPage class="main" />
     <AppFooter class="footer" />
   </div>
@@ -106,6 +119,7 @@ const showSideNav = ref(false);
 
 .hamburger-icon:hover {
   color: var(--primary-400);
+  cursor: pointer;
 }
 
 .hamburger-icon:active {

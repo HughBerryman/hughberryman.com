@@ -1,5 +1,5 @@
 <template>
-  <nav class="sidebar">
+  <nav :class="['sidebar', { showSideNav: showSideNav }]">
     <div>
       <div class="profile-header">
         <NuxtImg
@@ -15,7 +15,7 @@
 
       <ul role="list" class="nav-items-container">
         <li v-for="item in navItems">
-          <NuxtLink :to="item.path">
+          <NuxtLink :to="item.path" @click="closeSideNav">
             <Icon :name="item.icon" size="24" />
             {{ item.name }}
           </NuxtLink>
@@ -120,6 +120,18 @@ a.router-link-exact-active .icon {
 </style>
 
 <script setup lang="ts">
+import { defineProps, defineEmits } from "vue";
+
+const props = defineProps({
+  showSideNav: Boolean,
+});
+
+const emits = defineEmits(["close-sidenav"]);
+
+const closeSideNav = () => {
+  emits("close-sidenav");
+};
+
 const navItems = {
   home: {
     name: "Home",
