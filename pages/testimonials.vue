@@ -142,7 +142,7 @@ const testimonials = {
   ethanMillstein: {
     name: "Ethan Millstein",
     image:
-      "https://media.licdn.com/dms/image/D4D35AQEq3d9b5w9hSQ/profile-framedphoto-shrink_100_100/0/1702571463979?e=1717488000&v=beta&t=6KRJGiPgalMr812LEQYOyg1ug2oC8fQrNs8jKUKvJ9M",
+      "https://media.licdn.com/dms/image/D4D35AQEq3d9b5w9hSQ/profile-framedphoto-shrink_400_400/0/1702571463979?e=1718366400&v=beta&t=pCGHoeqXK2rHaCOEjUjQEWJ88TiSXmgDvT6GS-3smKU",
     jobTitle: "Mobile Eng Manager",
     company: "Tribal Credit",
     recommendation:
@@ -153,7 +153,7 @@ const testimonials = {
   mateusPienta: {
     name: "Mateus Pienta",
     image:
-      "https://media.licdn.com/dms/image/D4D35AQHi7HfzDVK5bg/profile-framedphoto-shrink_100_100/0/1709733211215?e=1717488000&v=beta&t=XyHjxp8pwbjHNPNTD6OnWbua748yyQf8F3xis2YhnmA",
+      "https://media.licdn.com/dms/image/C4D03AQEsDTJ0uCOVxQ/profile-displayphoto-shrink_800_800/0/1629750815718?e=1723075200&v=beta&t=-E7pulX88Kjd8NCQaqtioyJgjpPN5cfztqWGJD8Ctog",
     jobTitle: "Sr. Product Designer",
     company: "Tribal Credit",
     recommendation:
