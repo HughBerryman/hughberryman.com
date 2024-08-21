@@ -120,7 +120,7 @@ const testimonials = {
   laboriaWillis: {
     name: "LaBoria Willis",
     image:
-      "https://media.licdn.com/dms/image/C4D03AQHbCHHwzw9nfw/profile-displayphoto-shrink_100_100/0/1584041486275?e=1722470400&v=beta&t=sREg70V4b9pqJDtF06t92dyZzMPpge84acVZv1ykhoU",
+      "/img/headshots/laboria-headshot.jpeg",
     jobTitle: "Director, User Experience (UX)",
     company: "Symetra Insurance",
     recommendation:
@@ -129,10 +129,10 @@ const testimonials = {
     linkedInProfile: "https://www.linkedin.com/in/laboria/",
   },
   amrShady: {
-    name: "Amr Shady",
+    name: "Leonardo Shapiro",
     image:
-      "https://media.licdn.com/dms/image/C4D03AQHZdikrUoT5WQ/profile-displayphoto-shrink_100_100/0/1516275803919?e=1722470400&v=beta&t=njN1P7Zzq8SJVt3RKys9VOVJh6T6cqnwQ-JLF48IOC4",
-    jobTitle: "CEO",
+      "/img/headshots/leonardo-headshot.jpeg",
+    jobTitle: "Chief Product Officer",
     company: "Tribal Credit",
     recommendation:
       "I'm excited to recommend Hugh, our Director of Design. In his role here, Hugh has been a standout leader in design and an invaluable asset to our team.\nHugh combines a keen sense of strategic thinking with a hands-on approach to design leadership. He doesn't just design; he thinks ahead, aligning every project with our broader business goals while keeping creativity at the forefront. This strategic approach ensures our designs are not only aesthetically appealing but also effective in the market.\nWhat truly sets Hugh apart is his skill in mentoring diverse team members, especially those outside the design field. He has a unique ability to make complex design concepts accessible and engaging. This has fostered a collaborative environment where everyone feels confident contributing to the design process.\nBeyond his immediate team, Hugh has instilled a culture of design thinking throughout our organization. He encourages problem-solving that incorporates design principles, leading to more innovative and user-centered product solutions.\nIn short, Hugh is a remarkable blend of a strategist and a mentor, making him a significant asset to any team. I am excited to see the impact he will make in his next role.",
@@ -142,7 +142,7 @@ const testimonials = {
   ethanMillstein: {
     name: "Ethan Millstein",
     image:
-      "https://media.licdn.com/dms/image/D4D35AQEq3d9b5w9hSQ/profile-framedphoto-shrink_400_400/0/1702571463979?e=1718366400&v=beta&t=pCGHoeqXK2rHaCOEjUjQEWJ88TiSXmgDvT6GS-3smKU",
+      "/img/headshots/ethan-headshot.jpeg",
     jobTitle: "Mobile Eng Manager",
     company: "Tribal Credit",
     recommendation:
@@ -153,7 +153,7 @@ const testimonials = {
   mateusPienta: {
     name: "Mateus Pienta",
     image:
-      "https://media.licdn.com/dms/image/C4D03AQEsDTJ0uCOVxQ/profile-displayphoto-shrink_800_800/0/1629750815718?e=1723075200&v=beta&t=-E7pulX88Kjd8NCQaqtioyJgjpPN5cfztqWGJD8Ctog",
+      "/img/headshots/mateus-headshot.jpeg",
     jobTitle: "Sr. Product Designer",
     company: "Tribal Credit",
     recommendation:
@@ -164,7 +164,7 @@ const testimonials = {
   omarHosney: {
     name: "Omar Hosney",
     image:
-      "https://media.licdn.com/dms/image/C5603AQG1CNABLamuPQ/profile-displayphoto-shrink_100_100/0/1544750312527?e=1722470400&v=beta&t=7IdFzkvxMJ1A3rNHqN5By_wikdt16peWTtkIcRAbrp8",
+      "/img/headshots/omar-headshot.jpeg",
     jobTitle: "Sr. Data Scientist",
     company: "Tribal Credit",
     recommendation:
@@ -176,7 +176,7 @@ const testimonials = {
   alhassanSedky: {
     name: "Alhassan Sedky",
     image:
-      "https://media.licdn.com/dms/image/C4E03AQGizubfKgjZ4Q/profile-displayphoto-shrink_100_100/0/1571110621109?e=1722470400&v=beta&t=LMSsA9CUdSEcJxAlMhOXK172gTetnDYCnrxEy3vNgl4",
+      "/img/headshots/alhassan-headshot.jpeg",
     jobTitle: "Sr. Product Manager",
     company: "Tribal Credit",
     recommendation:
@@ -187,7 +187,7 @@ const testimonials = {
   emilianoCarrillo: {
     name: "Emiliano Carrillo",
     image:
-      "https://media.licdn.com/dms/image/D5603AQEzAbAz_qOllQ/profile-displayphoto-shrink_100_100/0/1708409894184?e=1722470400&v=beta&t=nawQl0Xk5UbBE0j6rXKrM-luCfr89ACP5F179OBVdn0",
+      "/img/headshots/emi-headshot.jpeg",
     jobTitle: "Product Designer",
     company: "Tribal Credit",
     recommendation:
@@ -198,7 +198,7 @@ const testimonials = {
   mayteAbud: {
     name: "Mayte Abud",
     image:
-      "https://media.licdn.com/dms/image/D4E03AQE2GmSWUTssmA/profile-displayphoto-shrink_100_100/0/1699309894935?e=1722470400&v=beta&t=99qOjyWvhyjwmwWjwCBfU6cyUsCqihi4vG36ynx8vSg",
+      "/img/headshots/mayte-headshot.jpeg",
     jobTitle: "Sr. HR Business Partner LATAM | Head of People",
     company: "Jeeves",
     recommendation:
