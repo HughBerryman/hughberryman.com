@@ -175,7 +175,7 @@ const socials = {
     icon: "lucide:linkedin",
   },
   github: {
-    url: "https://github.com/HughBerriez/hughberryman.com",
+    url: "https://github.com/HughBerryman/hughberryman.com",
     icon: "lucide:github",
   },
 };

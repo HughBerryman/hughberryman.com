@@ -6,7 +6,7 @@
     </p>
 
     <div class="dot" />
-    <a href="https://github.com/HughBerriez/hughberryman.com" target="_blank">
+    <a href="https://github.com/HughBerryman/hughberryman.com" target="_blank">
       <p>
         View
         <Icon
