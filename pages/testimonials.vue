@@ -37,7 +37,7 @@
           title="Scroll down to Recommendations section"
         >
           <Icon name="ic:twotone-verified-user" size="24" />
-          <p>Verified LinkedIn Testimonial</p>
+          <p>View verified LinkedIn Testimonial</p>
         </a>
         <p
           class="testimonial"
