@@ -18,13 +18,6 @@
       </p>
     </a>
     <div class="dot" />
-    <!-- <div
-      style="
-        padding: 0.25rem;
-        background-color: var(--primary-50);
-        border-radius: 100%;
-      "
-    ></div> -->
   </footer>
 </template>
 

@@ -154,7 +154,7 @@ const navItems = {
     path: "/about",
   },
   stack: {
-    name: "Stack",
+    name: "Stack & Skills",
     icon: "ph:stack-duotone",
     path: "/stack",
   },
