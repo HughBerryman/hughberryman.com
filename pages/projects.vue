@@ -5,7 +5,12 @@
     <ul role="list" class="projects-container">
       <li v-for="project in projects" class="grid-item">
         <a :href="project.url" target="_blank">
-          <NuxtImg :src="project.image" :alt="project.description" />
+          <NuxtImg
+            preload
+            :placeholder="true"
+            :src="project.image"
+            :alt="project.description"
+          />
           <p style="margin-top: 0.5rem">{{ project.category }}</p>
           <h3>
             {{ project.name }}
@@ -40,6 +45,8 @@
 
 img {
   border-radius: var(--dsaas-border-radius);
+  /* max-width: 100%; */
+  /* height: auto; */
   aspect-ratio: 9/6 auto;
 }
 </style>

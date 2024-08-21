@@ -35,7 +35,7 @@
           v-if="testimonial.linkedInVerifiedRec"
         >
           <Icon name="ic:twotone-verified-user" size="24" />
-          <p>Verified review on LinkedIn</p>
+          <p>Veriew verified review on LinkedIn</p>
         </a>
         <p
           class="testimonial"
