@@ -5,11 +5,12 @@
     <ul role="list" class="testimonial-container">
       <li v-for="testimonial in testimonials" class="testimonial-card">
         <div style="display: flex">
-          <NuxtImg
-            :src="testimonial.image"
-            :alt="testimonial.name"
-            class="profile-image"
-          />
+          <a :href="testimonial.linkedInProfile" target="_blank">
+            <NuxtImg
+              :src="testimonial.image"
+              :alt="testimonial.name"
+              class="profile-image"
+          /></a>
           <div
             style="
               margin-left: 0.5rem;
@@ -22,9 +23,9 @@
               <h3 class="name">
                 {{ testimonial.name }}
               </h3>
+              <h4 class="job-title">{{ testimonial.jobTitle }}</h4>
+              <h4 class="company">{{ testimonial.company }}</h4>
             </a>
-            <h4 class="job-title">{{ testimonial.jobTitle }}</h4>
-            <h4 class="company">{{ testimonial.company }}</h4>
           </div>
         </div>
 
@@ -33,9 +34,10 @@
           target="_blank"
           class="linkedinVerified"
           v-if="testimonial.linkedInVerifiedRec"
+          title="Scroll down to Recommendations section"
         >
           <Icon name="ic:twotone-verified-user" size="24" />
-          <p>Veriew verified review on LinkedIn</p>
+          <p>Verified LinkedIn Testimonial</p>
         </a>
         <p
           class="testimonial"
@@ -119,8 +121,7 @@ a:hover {
 const testimonials = {
   laboriaWillis: {
     name: "LaBoria Willis",
-    image:
-      "/img/headshots/laboria-headshot.jpeg",
+    image: "/img/headshots/laboria-headshot.jpeg",
     jobTitle: "Director, User Experience (UX)",
     company: "Symetra Insurance",
     recommendation:
@@ -130,8 +131,7 @@ const testimonials = {
   },
   amrShady: {
     name: "Leonardo Shapiro",
-    image:
-      "/img/headshots/leonardo-headshot.jpeg",
+    image: "/img/headshots/leonardo-headshot.jpeg",
     jobTitle: "Chief Product Officer",
     company: "Tribal Credit",
     recommendation:
@@ -141,8 +141,7 @@ const testimonials = {
   },
   ethanMillstein: {
     name: "Ethan Millstein",
-    image:
-      "/img/headshots/ethan-headshot.jpeg",
+    image: "/img/headshots/ethan-headshot.jpeg",
     jobTitle: "Mobile Eng Manager",
     company: "Tribal Credit",
     recommendation:
@@ -152,8 +151,7 @@ const testimonials = {
   },
   mateusPienta: {
     name: "Mateus Pienta",
-    image:
-      "/img/headshots/mateus-headshot.jpeg",
+    image: "/img/headshots/mateus-headshot.jpeg",
     jobTitle: "Sr. Product Designer",
     company: "Tribal Credit",
     recommendation:
@@ -163,8 +161,7 @@ const testimonials = {
   },
   omarHosney: {
     name: "Omar Hosney",
-    image:
-      "/img/headshots/omar-headshot.jpeg",
+    image: "/img/headshots/omar-headshot.jpeg",
     jobTitle: "Sr. Data Scientist",
     company: "Tribal Credit",
     recommendation:
@@ -175,8 +172,7 @@ const testimonials = {
   },
   alhassanSedky: {
     name: "Alhassan Sedky",
-    image:
-      "/img/headshots/alhassan-headshot.jpeg",
+    image: "/img/headshots/alhassan-headshot.jpeg",
     jobTitle: "Sr. Product Manager",
     company: "Tribal Credit",
     recommendation:
@@ -186,8 +182,7 @@ const testimonials = {
   },
   emilianoCarrillo: {
     name: "Emiliano Carrillo",
-    image:
-      "/img/headshots/emi-headshot.jpeg",
+    image: "/img/headshots/emi-headshot.jpeg",
     jobTitle: "Product Designer",
     company: "Tribal Credit",
     recommendation:
@@ -197,8 +192,7 @@ const testimonials = {
   },
   mayteAbud: {
     name: "Mayte Abud",
-    image:
-      "/img/headshots/mayte-headshot.jpeg",
+    image: "/img/headshots/mayte-headshot.jpeg",
     jobTitle: "Sr. HR Business Partner LATAM | Head of People",
     company: "Jeeves",
     recommendation:
