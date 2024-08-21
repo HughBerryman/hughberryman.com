@@ -170,6 +170,7 @@ const socials = {
   //   url: "https://dribbble.com/acrossthehughniverse",
   //   icon: "lucide:dribbble",
   // },
+  // test new github remote
   linkedin: {
     url: "https://www.linkedin.com/in/hughberryman",
     icon: "lucide:linkedin",
