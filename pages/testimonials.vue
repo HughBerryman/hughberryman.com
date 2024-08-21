@@ -136,7 +136,7 @@ const testimonials = {
     company: "Tribal Credit",
     recommendation:
       "I'm excited to recommend Hugh, our Director of Design. In his role here, Hugh has been a standout leader in design and an invaluable asset to our team.\nHugh combines a keen sense of strategic thinking with a hands-on approach to design leadership. He doesn't just design; he thinks ahead, aligning every project with our broader business goals while keeping creativity at the forefront. This strategic approach ensures our designs are not only aesthetically appealing but also effective in the market.\nWhat truly sets Hugh apart is his skill in mentoring diverse team members, especially those outside the design field. He has a unique ability to make complex design concepts accessible and engaging. This has fostered a collaborative environment where everyone feels confident contributing to the design process.\nBeyond his immediate team, Hugh has instilled a culture of design thinking throughout our organization. He encourages problem-solving that incorporates design principles, leading to more innovative and user-centered product solutions.\nIn short, Hugh is a remarkable blend of a strategist and a mentor, making him a significant asset to any team. I am excited to see the impact he will make in his next role.",
-    linkedInVerifiedRec: false,
+    linkedInVerifiedRec: true,
     linkedInProfile: "https://www.linkedin.com/in/amrshady/",
   },
   ethanMillstein: {
