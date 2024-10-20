@@ -18,4 +18,9 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: "2024-08-20",
+
+  plugins: [
+    // Register the Vercel Analytics plugin
+    '~/plugins/vercel-analytics.client.ts'
+  ],
 });
