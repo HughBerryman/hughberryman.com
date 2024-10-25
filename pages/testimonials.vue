@@ -152,7 +152,7 @@ const testimonials = {
   mateusPienta: {
     name: "Mateus Pienta",
     image: "/img/headshots/mateus-headshot.jpeg",
-    jobTitle: "Sr. Product Designer",
+    jobTitle: "Product Designer",
     company: "Tribal Credit",
     recommendation:
       "Hugh is one of the best Design Leaders I've worked with in the past decade. He has a combined knowledge of Technology, coding, and design that allows him to navigate effortlessly through all types of daily projects, guide and mentor professionals, and help teams succeed in a world-class level of actuation. Hugh also excels in leadership through his immense care towards people, which to me is one of his biggest highlights, where even in the hardest of times he will be able to keep strong; Building team motivation and wellness by being fair, transparent, and thoughtful towards everyone around him.",
@@ -214,7 +214,7 @@ const testimonials = {
   yehorMamchits: {
     name: "Yehor Mamchits",
     image: "/img/headshots/yehor-headshot.jpeg",
-    jobTitle: "Sr. Product Designer",
+    jobTitle: "Product Designer",
     company: "Tribal Credit",
     recommendation:
       "Hugh has led our design team to excellence, innovating with a deep commitment to quality and design thinking.",

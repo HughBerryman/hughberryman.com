@@ -9,7 +9,7 @@
         />
         <div class="name-role-section">
           <h3 class="name">Hugh Berryman</h3>
-          <p class="role">Sr. Product Designer</p>
+          <p class="role">Digital Product Designer</p>
         </div>
       </div>
 

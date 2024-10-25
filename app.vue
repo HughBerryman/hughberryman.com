@@ -22,7 +22,7 @@ const closeSideNav = () => {
     <header class="header">
       <!-- <NuxtLink to="/">
         <h3>Hugh Berryman</h3>
-        <p>Sr. Product Designer</p>
+        <p>Digital Product Designer</p>
       </NuxtLink> -->
       <!-- <div /> -->
       <SpeedInsights />
@@ -34,7 +34,7 @@ const closeSideNav = () => {
         />
         <div class="name-role-section">
           <h3 class="name">Hugh Berryman</h3>
-          <p class="role">Sr. Product Designer</p>
+          <p class="role">Digital Creative</p>
         </div>
       </div>
 
