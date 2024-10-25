@@ -9,14 +9,6 @@
     <h1>I design and develop digital experiences.</h1>
     <p>
 			I’m a Digital Product Designer with nearly a decade of experience crafting user-centered, scalable design systems and intuitive digital products. From leading design teams to consulting on advanced UX/UI projects, I specialize in transforming complex requirements into seamless solutions. With expertise in tools like Figma, Storybook, and design thinking methodologies, I streamline processes, enhance collaboration, and drive measurable outcomes. Whether for short-term contracts or long-term projects, I bring a strategic and adaptable approach to every challenge.
-
-      // I'm a seasoned Product Designer with nearly a decade of experience in
-      // creating innovative and user-centric designs. Proven track record of
-      // leading design teams, enhancing collaboration, and driving product success
-      // through strategic design initiatives. Adept at integrating advanced design
-      // tools and systems to streamline processes and improve efficiency. Skilled
-      // in user experience (UX) and user interface (UI) design, prototyping, and
-      // cross-functional collaboration.
     </p>
     <div class="button-group">
       <NuxtLink to="/projects" class="primary-button">
