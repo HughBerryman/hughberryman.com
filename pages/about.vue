@@ -11,7 +11,12 @@
       "
     >
       <!-- href="/resume/Hugh-Berryman-Resume-2024.pdf" -->
-      <a download target="_blank" class="download-link button-group">
+      <a
+        href="/resume/Hugh-Berryman-Resume-2024.pdf"
+        download
+        target="_blank"
+        class="download-link button-group"
+      >
         <button class="primary">
           As PDF
           <div class="primary-icon" style="rotate: 0deg">
@@ -24,7 +29,12 @@
         </button>
       </a>
       <!-- href="/resume/Hugh-Berryman-Resume-2024.docx" -->
-      <a download target="_blank" class="download-link button-group">
+      <a
+        href="/resume/Hugh-Berryman-Resume-2024.docx"
+        download
+        target="_blank"
+        class="download-link button-group"
+      >
         <button class="secondary">
           As Word Version
           <div class="secondary-icon" style="rotate: 0deg">
